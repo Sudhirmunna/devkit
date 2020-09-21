@@ -1,0 +1,13 @@
+<div *ngIf="align === 'left'">
+    <p class="align-text">content works!</p>  
+ <div class="box" [@scrollAnimationToLeft]="state">
+    <img src="https://images.pexels.com/photos/37547/suit-business-man-business-man-37547.jpeg?w=1260&h=750&auto=compress&cs=tinysrgb">
+</div>
+</div>
+<div *ngIf="align === 'right'" >
+    <p class="align-text">content works!</p>  
+
+    <div class="box" [@scrollAnimationToRight]="state1">
+        <img src="https://images.pexels.com/photos/37547/suit-business-man-business-man-37547.jpeg?w=1260&h=750&auto=compress&cs=tinysrgb">
+    </div>
+</div>
